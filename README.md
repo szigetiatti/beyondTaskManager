@@ -10,10 +10,10 @@ The description for the task can be found here:
 - JDK 11
 - Maven (clean install)
 - Docker (for prod profile)
-#### Tests
+### Tests
 **Jacoco** was injected for code coverage measurement. Jacoco generates report to  ***target/jacoco/index.html*** file.
 
-#### Database migration and dockerization
+### Database migration and dockerization
 **Liquibase** was used for database schema management.
 The application has 3 profiles : **dev**, **local**, and **prod**.
 
